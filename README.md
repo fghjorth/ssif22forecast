@@ -1,6 +1,6 @@
 # ssif22forecast
 
-Digitaliseret version af SSI's fremskrivning af smittetal i foråret 2022. Gør det muligt at sammenligne den faktiske udvikling i smittetal med fremskrivningen. Data er aflæst ved hjælp af [WebPlotDigitizer](https://apps.automeris.io/wpd/).
+Digitaliseret version af [SSI's fremskrivning](https://www.ssi.dk/-/media/arkiv/subsites/covid19/risikovurderinger/2022/risikovurdering-for-udviklingen-i-epidemien-med-covid19-03012022.pdf?la=da) af smittetal i foråret 2022. Gør det muligt at sammenligne den faktiske udvikling i smittetal med fremskrivningen. Data er aflæst ved hjælp af [WebPlotDigitizer](https://apps.automeris.io/wpd/).
 
 Kode til at genskabe figuren:
 
