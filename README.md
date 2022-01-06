@@ -1,6 +1,6 @@
 # ssif22forecast
 
-Digitaliseret version af SSI's fremskrivning af smittetal i foråret 2022. Gør det muligt at sammenligne den faktiske udvikling i smittetal med fremskrivningen.
+Digitaliseret version af SSI's fremskrivning af smittetal i foråret 2022. Gør det muligt at sammenligne den faktiske udvikling i smittetal med fremskrivningen. Data er aflæst ved hjælp af [WebPlotDigitizer](https://apps.automeris.io/wpd/).
 
 Kode til at genskabe figuren:
 
@@ -14,4 +14,4 @@ ggplot(ssifc,aes(x=date,ymin=ci.lo,ymax=ci.hi)) +
   labs(x="",y="Smittetal") 
 ``` 
 
-!(ssifcplot.png)
+![](ssifcplot.png)
