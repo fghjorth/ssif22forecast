@@ -5,7 +5,7 @@ Digitaliseret version af SSI's fremskrivning af smittetal i foråret 2022. Gør 
 Kode til at genskabe figuren:
 
 ```
-ssifc <- read_csv2("ssifc.csv")
+ssifc <- read_csv("ssifccsv.csv")
 
 ggplot(ssifc,aes(x=date,ymin=ci.lo,ymax=ci.hi)) +
   geom_ribbon(alpha=.3,fill="darkblue") +
